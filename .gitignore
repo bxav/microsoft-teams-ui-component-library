@@ -354,7 +354,6 @@ MigrationBackup/
 *.iml
 
 # Built JS files
-/lib
 dist-storybook
 
 # We use yarn.lock

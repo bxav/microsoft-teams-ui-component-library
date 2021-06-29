@@ -1,0 +1,1 @@
+{"version":3,"file":"TableTheme.d.ts","sourceRoot":"","sources":["../../../../src/components/Table/TableTheme.tsx"],"names":[],"mappings":"AAAA,OAAc,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAOzC,OAAO,EACL,aAAa,EAGd,MAAM,kBAAkB,CAAC;AAM1B,MAAM,WAAW,gBAAgB;IAC/B,WAAW,EAAE,aAAa,CAAC;IAC3B,QAAQ,EAAE,SAAS,CAAC;CACrB;AA8DD,eAAO,MAAM,UAAU,8BAA+B,gBAAgB,gBAerE,CAAC"}

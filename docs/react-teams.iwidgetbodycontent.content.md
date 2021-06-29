@@ -9,5 +9,5 @@ The content, as a React Node.
 <b>Signature:</b>
 
 ```typescript
-content: TWidgetContent;
+content: TWidgetContent | ReactElement;
 ```
