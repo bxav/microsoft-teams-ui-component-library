@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React, { ReactElement, ReactNode } from "react";
 import {
   Flex,
   Card,
@@ -213,7 +213,7 @@ export interface IWidgetBodyContent {
   /**
    * The content, as a React Node.
    */
-  content: TWidgetContent;
+  content: TWidgetContent | ReactElement;
 }
 
 export const WidgetBody = ({
@@ -277,6 +277,8 @@ export const WidgetBody = ({
                         message={(content as IPlaceholderWidgetContent).message}
                       />
                     );
+                  default:
+                    return content;
                 }
               })()}
             </Flex>
